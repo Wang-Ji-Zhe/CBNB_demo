@@ -1,5 +1,15 @@
 # CBNB_demo
 
+论文：
+
+Hybrids of Constraint-based and Noise-based Algorithms for Causal Discovery from Time Series
+
+https://arxiv.org/pdf/2306.08765.pdf
+
+开源代码仓库：
+
+https://github.com/ckassaad/Hybrids_of_CB_and_NB_for_Time_Series
+
 
 
 - **algorithm文件夹**：存放原项目中和算法有关的代码
