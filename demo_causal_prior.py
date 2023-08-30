@@ -17,7 +17,7 @@ from utils import graph_to_adj_matrix, alarm_data_process, true_graph_process
 if __name__ == '__main__':
     """ Step 1: 设置参数 """
     print("\n\nStep 1: 设置参数")
-    param_method = "VarLiNGAM"  # CBNB_w NBCB_w CBNB_e NBCB_e GCMVL CCM PCMCI PCGCE VarLiNGAM
+    param_method = "CBNB_w"  # CBNB_w NBCB_w CBNB_e NBCB_e GCMVL CCM PCMCI PCGCE VarLiNGAM
     param_tau_max = 5  # param_tau_max 表示 tau 的最大值， 也就是最大的滞后阶数
     # 滞后阶数是指，如果 tau = 1， 那么就是说，如果 X 的值发生了变化，那么 Y 的值会在下一个时刻发生变化
     param_sig_level = 0.05  # param_sig_level 表示显著性水平
